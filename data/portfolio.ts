@@ -91,6 +91,21 @@ const projects = [
       'https://youtu.be/oDosebpBEf8?si=fVS1XUaodooYHPyO&t=179',
   },
   {
+    thumbnail: '/images/yaasiin-dev.jpeg',
+    name: 'Yaasiin.dev',
+    description: [
+      'Simple and minimalistic portfolio template for developers built with Next.js and TypeScript inspired by leanfolio',
+    ],
+    stack: [
+      'Next.js',
+      'TypeScript',
+      'Brevo Conversations',
+    ],
+    sourceCode:
+      'https://github.com/yaasiin-ayeva/yaasiin.dev',
+    livePreview: 'https://yaasiin-dev.vercel.app',
+  },
+  {
     thumbnail: '/images/default.jpeg',
     name: 'd4d-express-mongo-boilerplate',
     description: [
