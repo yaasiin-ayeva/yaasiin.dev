@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yaasiin-dev.vercel.app/sitemap.xml
