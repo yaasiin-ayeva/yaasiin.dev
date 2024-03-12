@@ -36,12 +36,17 @@ function MyApp({ Component, pageProps }: any) {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <title>{about.name || 'Portfolio'}</title>
+        <meta name='description' content='Yaasiin AYEVA, Young Togolese Software Developer. A kind and serious man.' />
+        <meta name='keywords' content='Software Developer, Software Development, Portfolio' />
+        <meta name='author' content='Yaasiin AYEVA' />
+        <meta name='robots' content='index, follow' />
       </Head>
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
     </>
   )
+  
 }
 
 export default MyApp
