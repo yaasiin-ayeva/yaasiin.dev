@@ -13,15 +13,11 @@ import '../styles/ScrollToTop.css'
 import '../styles/Skills.css'
 import 'animate.css'
 
-// google analytics
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { ga_measurement_id, pageview } from '../lib/google-analytics'
-// /google analytics
 
 function MyApp({ Component, pageProps }: any) {
-  // google analytics
-  // will log page views on route change if new routes are added
   const router = useRouter()
   useEffect(() => {
     if (!ga_measurement_id) return
@@ -29,7 +25,6 @@ function MyApp({ Component, pageProps }: any) {
     router.events.on('routeChangeComplete', handleRouteChange)
     return () => router.events.off('routeChangeComplete', handleRouteChange)
   }, [router.events])
-  // /google analytics
 
   return (
     <>
@@ -46,7 +41,6 @@ function MyApp({ Component, pageProps }: any) {
       </ThemeProvider>
     </>
   )
-  
 }
 
 export default MyApp
