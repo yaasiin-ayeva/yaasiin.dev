@@ -1,7 +1,6 @@
 import uniqid from 'uniqid'
 import Hyphenated from 'react-hyphen';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { FaStackOverflow, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { about } from '../data/portfolio'
 
 const About = () => {
@@ -66,7 +65,7 @@ const About = () => {
                   aria-label='github'
                   className='link link--icon'
                 >
-                  <GitHubIcon />
+                  <FaGithub className='about___social___ico' />
                 </a>
               )}
 
@@ -78,7 +77,19 @@ const About = () => {
                   aria-label='linkedin'
                   className='link link--icon'
                 >
-                  <LinkedInIcon />
+                  <FaLinkedin className='about___social___ico' />
+                </a>
+              )}
+
+              {social.stackoverflow && (
+                <a
+                  href={social.stackoverflow}
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='stackoverflow'
+                  className='link link--icon'
+                >
+                  <FaStackOverflow className='about___social___ico' />
                 </a>
               )}
             </>

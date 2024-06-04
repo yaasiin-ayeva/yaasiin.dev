@@ -37,6 +37,10 @@
   margin-top: 2.4rem;
 }
 
+.about___social___ico {
+  font-size: 1.7rem;
+}
+
 @media (max-width: 600px) {
   .about__pseudo-padding-top {
     min-height: 3rem;
