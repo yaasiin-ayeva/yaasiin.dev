@@ -72,6 +72,17 @@ const projects = [
     livePreview: 'https://discord.gg/TFT2m2Thuu',
   },
   {
+    thumbnail: '/images/whatsbot.png',
+    name: 'WhatsBot',
+    description: [
+      `Simple WhatsApp bot from unofficial Whatsapp API, built in NodeJS & TypeScript, uses Gemini & ChatGPT APIs for Completion.
+      Provide prompts for Jokes, Memes, and Translation to any language. Uses Puppeteer and WhatsappWebJS (Unofficial Whatsapp API).
+      `,
+    ],
+    stack: ['TypeScript', 'WhatsappWeb.js', 'Puppeteer', 'AI', 'GPT-3.5', 'OpenAI API', 'Gemini API'],
+    sourceCode: 'https://github.com/yaasiin-ayeva/WhatsBot',
+  },
+  {
     thumbnail: '/images/labomaster.png',
     name: 'Labomaster',
     description: [
