@@ -81,6 +81,7 @@ const projects = [
     ],
     stack: ['TypeScript', 'WhatsappWeb.js', 'Puppeteer', 'AI', 'GPT-3.5', 'OpenAI API', 'Gemini API'],
     sourceCode: 'https://github.com/yaasiin-ayeva/WhatsBot',
+    livePreview: 'https://chat.whatsapp.com/LafMN793Hj9BBn3rOAe5CI',
   },
   {
     thumbnail: '/images/labomaster.png',
