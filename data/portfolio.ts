@@ -196,13 +196,23 @@ const contacts = [
     icon: 'fas fa-envelope',
   },
   {
-    name: 'Whatsapp',
+    name: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/yaasiin-ayeva/',
+    icon: 'fab fa-linkedin',
+  },
+  {
+    name: 'WhatsApp',
     link: 'https://wa.me/22893921257',
     icon: 'fab fa-whatsapp',
   },
   {
-    name: 'Twitter',
-    link: 'https://twitter.com/the___bishop',
+    name: 'Telegram',
+    link: 'https://t.me/hey_yaasiin',
+    icon: 'fab fa-telegram',
+  },
+  {
+    name: 'X',
+    link: 'https://x.com/hey_yaasiin',
     icon: 'fab fa-twitter',
   },
 ]
