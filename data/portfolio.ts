@@ -1,7 +1,7 @@
 const about = {
   name: 'Yaasiin AYEVA',
   role: 'Software Developer and DevOps Engineer',
-  // company: 'JS Morlu Ghana',
+  company: '',
   description: [
     `Software developer for nearly ${new Date().getFullYear() - 2020} years, I'm a stickler for API security, a lover of clean code, 
      and passionate about my job and new technologies. I'm always on a quest to harness the potential that 5G and AI technologies can bring. 
