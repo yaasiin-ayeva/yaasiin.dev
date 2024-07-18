@@ -1,11 +1,11 @@
 const about = {
   name: 'Yaasiin AYEVA',
-  role: 'Software Developer',
-  company: 'JS Morlu Ghana',
+  role: 'Software Developer and DevOps Engineer',
+  // company: 'JS Morlu Ghana',
   description: [
-    `Software developer for nearly ${new Date().getFullYear() - 2020} years, I’am a stickler for API security, 
-    a lover of clean code and remain passionate about my job and new technologies in general. Always on a quest 
-    prowess that the development of 5G may enable on the ground, in line with the explosion of AI technologies.
+    `Software developer for nearly ${new Date().getFullYear() - 2020} years, I'm a stickler for API security, a lover of clean code, 
+     and passionate about my job and new technologies. I'm always on a quest to harness the potential that 5G and AI technologies can bring. 
+     My recent venture into DevOps has equipped me with skills to streamline development processes, ensuring efficient and reliable software delivery.
     `,
   ],
   resume: '/documents/Yaasiin_AYEVA_CV.pdf',
@@ -161,6 +161,9 @@ const skills = [
   'UML',
   'Git',
   'CI/CD',
+  'Docker',
+  'Kubernetes',
+  'CircleCI',
   'PostgreSQL',
   'MySQL',
   'MongoDB',
