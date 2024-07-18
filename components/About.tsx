@@ -4,8 +4,12 @@ import { FaStackOverflow, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { about } from '../data/portfolio'
 
 const About = () => {
-  const { name, role, company, description, resume, social, greetingEmoji } =
-    about
+  
+  const { 
+    name, role, company, description, 
+    resume, social, greetingEmoji 
+  } = about;
+
   const firstName = name ? name.split(' ')[0] : null
 
   return (
