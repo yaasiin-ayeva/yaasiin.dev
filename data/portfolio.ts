@@ -218,6 +218,11 @@ const contacts = [
     link: 'https://x.com/hey_yaasiin',
     icon: 'fab fa-twitter',
   },
+  {
+    name: 'Discord',
+    link: 'https://discordapp.com/users/yaasiin#4671',
+    icon: 'fab fa-discord',
+  }
 ]
 
 export { about, projects, skills, contact, contacts }
