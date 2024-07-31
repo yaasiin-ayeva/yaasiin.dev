@@ -72,7 +72,7 @@ const projects = [
     livePreview: 'https://discord.gg/TFT2m2Thuu',
   },
   {
-    thumbnail: '/images/whatsbot.png',
+    thumbnail: '/images/whatsbot2.png',
     name: 'WhatsBot',
     description: [
       `Simple WhatsApp bot from unofficial Whatsapp API, built in NodeJS & TypeScript, uses Gemini & ChatGPT APIs for Completion.
