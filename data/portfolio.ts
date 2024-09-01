@@ -75,10 +75,11 @@ const projects = [
     thumbnail: '/images/whatsbot2.png',
     name: 'WhatsBot',
     description: [
-      `Simple WhatsApp bot from unofficial Whatsapp API, built in NodeJS & TypeScript, uses Gemini & ChatGPT APIs for Completion. You can interact with the bot using voice messages, and it will transcribe and respond. 🤖`,
+      `WhatsApp bot from unofficial API, uses Gemini & ChatGPT APIs for Completion. You can interact with the bot using voice messages, and it will transcribe and respond. Also helps to download videos from social media (Tiktok, Facebook, Instagram, Twitter, Snapchat) without watermark. 🤖`,
     ],
-    stack: ['TypeScript', 'Puppeteer', 'AI', 'GPT-3.5', 'OpenAI API', 'Gemini API'],
+    stack: ['TypeScript', 'Puppeteer', 'AI', 'GPT-3.5', 'OpenAI API', 'Gemini API', 'Docker', 'NodeJS'],
     sourceCode: 'https://github.com/yaasiin-ayeva/WhatsBot',
+    dockerHub: 'https://hub.docker.com/r/yaasiinayeva/whatsbot',
     // livePreview: 'https://chat.whatsapp.com/LafMN793Hj9BBn3rOAe5CI',
   },
   {

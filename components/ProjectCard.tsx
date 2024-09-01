@@ -2,8 +2,7 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LaunchIcon from '@mui/icons-material/Launch'
 import MediaIcon from '@mui/icons-material/YouTube'
-// import MediaIcon from '@mui/icons-material/VideoLibraryOutlined'
-
+import { FaDocker } from 'react-icons/fa'
 
 const ProjectCard = ({ project }: any) => (
   <div className='project'>
@@ -71,6 +70,25 @@ const ProjectCard = ({ project }: any) => (
         <a
           href='#'
           aria-label='live preview'
+          className='link link--icon disabled'
+        >
+        </a>
+      )}
+
+      {project.dockerHub ? (
+        <a
+          href={project.dockerHub}
+          target='_blank'
+          rel='noreferrer'
+          aria-label='docker hub'
+          className='link link--icon'
+        >
+          <FaDocker size={25} />
+        </a>
+      ) : (
+        <a
+          href='#'
+          aria-label='docker hub'
           className='link link--icon disabled'
         >
         </a>
