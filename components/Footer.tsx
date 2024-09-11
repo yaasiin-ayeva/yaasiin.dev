@@ -6,7 +6,7 @@ const Footer = () => (
       rel='noreferrer'
       className='link footer__link'
     >
-      Siin Folio - MiT License © {new Date().getFullYear()}
+      Yaasiin-dev - MiT License © {new Date().getFullYear()}
     </a>
   </footer>
 )

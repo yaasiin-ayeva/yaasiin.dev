@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section className='section contact' id='contact'>
       <Spacer height={2} />
-      {/* <h2 className='contact__title'>Contact Me</h2> */}
+      <h2 className='section__title'>How to find me</h2>
       <ul className='contact__list'>
         {contacts.map(({ name, link, icon }) => (
           <li key={name} className='contact__list-item'>
