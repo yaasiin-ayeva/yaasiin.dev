@@ -29,17 +29,6 @@ const projects = [
     stack: ['Tailwind CSS', 'TypeScript', 'React', 'SQL', 'Express'],
   },
   {
-    thumbnail: '/images/yvans.jpg',
-    name: 'YVANS : E-Commerce Website',
-    description: [
-      `Yvan's is a simple digital portfolio for a small online business which helps people to personalize their assets. 
-       It's a simple website used to showcase yvans products and services.
-      `,
-    ],
-    stack: ['BootStrap', 'JavaScript', 'HTML/CSS'],
-    livePreview: 'https://www.yvansgroup.com/',
-  },
-  {
     thumbnail: '/images/payrolll.jpg',
     name: 'Payroll Management System',
     description: [
@@ -57,6 +46,17 @@ const projects = [
       `,
     ],
     stack: ['JQuery', 'TypeScript', 'MongoDB', 'Express', 'BootStrap'],
+  },
+  {
+    thumbnail: '/images/labomaster.png',
+    name: 'Labomaster',
+    description: [
+      `This system helps to manage laboratory reagents and consumables in a simple and efficient way. 
+      It gives overview and detailed reports on the usage of the reagents and consumables in the lab. 
+      It simplifies the process of lab management by giving some indications based on some analytics and facts.
+      `,
+    ],
+    stack: ['Java EE (Edition Enterprise)', 'PostgreSQL', 'Python', 'HTML/CSS'],
   },
   {
     thumbnail: '/images/polyglot.png',
@@ -81,17 +81,7 @@ const projects = [
     sourceCode: 'https://github.com/yaasiin-ayeva/WhatsBot',
     dockerHub: 'https://hub.docker.com/r/yaasiinayeva/whatsbot',
     // livePreview: 'https://chat.whatsapp.com/LafMN793Hj9BBn3rOAe5CI',
-  },
-  {
-    thumbnail: '/images/labomaster.png',
-    name: 'Labomaster',
-    description: [
-      `This system helps to manage laboratory reagents and consumables in a simple and efficient way. 
-      It gives overview and detailed reports on the usage of the reagents and consumables in the lab. 
-      It simplifies the process of lab management by giving some indications based on some analytics and facts.
-      `,
-    ],
-    stack: ['Java EE (Edition Enterprise)', 'PostgreSQL', 'Python', 'HTML/CSS'],
+    livePreview: 'https://api.whatsapp.com/send/?phone=233531799313',
   },
   {
     thumbnail: '/images/rose.jpg',
@@ -129,6 +119,17 @@ const projects = [
     sourceCode:
       'https://github.com/yaasiin-ayeva/yaasiin.dev',
     livePreview: 'https://yaasiin-dev.vercel.app',
+  },
+  {
+    thumbnail: '/images/yvans.jpg',
+    name: 'YVANS : E-Commerce Website',
+    description: [
+      `Yvan's is a simple digital portfolio for a small online business which helps people to personalize their assets. 
+       It's a simple website used to showcase yvans products and services.
+      `,
+    ],
+    stack: ['BootStrap', 'JavaScript', 'HTML/CSS'],
+    livePreview: 'https://www.yvansgroup.com/',
   },
   {
     thumbnail: '/images/default.jpeg',
@@ -211,6 +212,11 @@ const contacts = [
     name: 'Telegram',
     link: 'https://t.me/hey_yaasiin',
     icon: 'fab fa-telegram',
+  },
+  {
+    name: 'Upwork',
+    link: 'https://www.upwork.com/freelancers/~01a9b6b0b0c0c7f0b8',
+    icon: 'fab fa-upwork',
   },
   {
     name: 'X',
