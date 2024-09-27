@@ -5,7 +5,7 @@
             <img src="https://vercelbadge.vercel.app/api/yaasiin-ayeva/yaasiin.dev" alt="Vercel deployment status">
         </a>
     </h1>
-    <img src="public/images/yaasiin-dev.jpeg" alt="Preview" width="100%">
+    <img src="public/images/yaasiin-dev.png" alt="Preview" width="100%">
     <p>
         A minimalist portfolio template for developers built with Next. js and TypeScript inspired by <a href="https://github.com/magic-ike/leanfolio">leanfolio</a>
     </p>

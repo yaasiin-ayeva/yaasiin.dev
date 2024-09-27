@@ -73,7 +73,7 @@ const About = () => {
                 </a>
               )}
 
-              {social.linkedin && (
+              {/* {social.linkedin && (
                 <a
                   href={social.linkedin}
                   target='_blank'
@@ -83,7 +83,7 @@ const About = () => {
                 >
                   <FaLinkedin className='about___social___ico' />
                 </a>
-              )}
+              )} */}
 
               {social.stackoverflow && (
                 <a
