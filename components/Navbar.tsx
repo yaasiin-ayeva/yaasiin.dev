@@ -11,7 +11,7 @@ const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
-  const { name } = about
+  const { fullName, name } = about
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +51,7 @@ const Navbar = () => {
           <li className='nav__list-item'>
             <strong>
               <a href='#top' onClick={hideNavList} className='link'>
-                {name || 'About Me'}
+                {fullName || name || 'About Me'}
               </a>
             </strong>
           </li>

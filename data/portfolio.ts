@@ -1,5 +1,6 @@
 const about = {
   name: 'Yaasiin',
+  fullName: 'Yaasiin AYEVA',
   role: 'Software Developer and DevOps Engineer',
   company: '',
   description: [
