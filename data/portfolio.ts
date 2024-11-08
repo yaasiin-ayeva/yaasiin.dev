@@ -3,7 +3,7 @@ const about = {
   role: 'Software Developer and DevOps Engineer',
   company: '',
   description: [
-    `A Software Developer & DevOps enthusiast committed to building secure, scalable applications.
+    `A Software Developer & DevOps Engineer committed to building secure, scalable applications.
      With a passion for technological innovation and a strong focus on delivering impactful solutions, 
      I specialize in full-stack development and cloud-based deployments.
      My goal is to create solutions that are reliable, secure, and easy to manage.
@@ -121,7 +121,8 @@ const skills = [
   'PostgreSQL',
   'MySQL',
   'MongoDB',
-  'Android Native',
+  'Flutter',
+  'Dart',
   'IONIC',
   'BootStrap',
   'JQuery',
