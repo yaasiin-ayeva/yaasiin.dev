@@ -79,6 +79,16 @@ const projects = [
   },
   {
     thumbnail: '/images/default.jpeg',
+    name: 'ussd-africas-talking-app',
+    description: [
+      `Example of a mobile money USSD service using Africa's Talking, developed with Node.js, Express, and TypeScript. This service allows users to interact with a menu-driven interface via USSD codes.`,
+    ],
+    stack: ['Africas Talking', 'TypeScript', 'Express'],
+    sourceCode:
+      'https://github.com/yaasiin-ayeva/ussd-africas-talking-app',
+  },
+  {
+    thumbnail: '/images/default.jpeg',
     name: 'Polyglot',
     description: [
       `Simple discord bot that provide word translation to many differents languages.`,
