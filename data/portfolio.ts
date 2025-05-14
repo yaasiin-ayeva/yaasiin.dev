@@ -20,6 +20,15 @@ const about = {
 
 const projects = [
   {
+    thumbnail: '/images/imbuto.png',
+    name: 'Imbuto: Seed Management System for Gov. of Burundi',
+    description: [
+      `A web platform connecting seed producers, farmers, certifiers, and buyers — enabling online seed sales, inventory management, and sales tracking. Currently used in Burundi.`,
+    ],
+    stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'MongoDB'],
+    livePreview: 'https://pngs.bi',
+  },
+  {
     thumbnail: '/images/bog.jpg',
     name: 'Ghana Financial & Cargo Analytics',
     description: [
