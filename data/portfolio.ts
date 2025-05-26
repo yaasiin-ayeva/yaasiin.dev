@@ -20,6 +20,15 @@ const about = {
 
 const projects = [
   {
+    thumbnail: '/images/orbisFlow.png',
+    name: 'OrbisFlow - Multi-Domain Management System (Restaurant, Supermarket, Gas Station, Bar Management)',
+    description: [
+      `Multi-Domain Management SaaS (Restaurant, Supermarket, Gas Station, Bar Management) with POS, Inventory Management, Sales Tracking, and accounting module`,
+    ],
+    stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'PostgreSQL'],
+    livePreview: 'http://16.171.67.4:5025/',
+  },
+  {
     thumbnail: '/images/imbuto.png',
     name: 'Imbuto: Seed Management System for Gov. of Burundi',
     description: [
