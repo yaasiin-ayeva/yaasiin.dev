@@ -21,7 +21,7 @@ const about = {
 const projects = [
   {
     thumbnail: '/images/orbisFlow.png',
-    name: 'OrbisFlow - Multi-Domain Management System (Restaurant, Supermarket, Gas Station, Bar Management)',
+    name: 'OrbisFlow',
     description: [
       `Multi-Domain Management SaaS (Restaurant, Supermarket, Gas Station, Bar Management) with POS, Inventory Management, Sales Tracking, and accounting module`,
     ],
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     thumbnail: '/images/imbuto.png',
-    name: 'Imbuto: Seed Management System for Gov. of Burundi',
+    name: 'Imbuto',
     description: [
       `A web platform connecting seed producers, farmers, certifiers, and buyers — enabling online seed sales, inventory management, and sales tracking. Currently used in Burundi.`,
     ],
@@ -72,6 +72,16 @@ const projects = [
     stack: ['Java EE (Edition Enterprise)', 'PostgreSQL'],
   },
   {
+    thumbnail: '/images/Triskeloum.JPG',
+    name: 'Triskeloum',
+    description: [
+      `E-learning Platforme with its back-office, published on GitHub under an open-source license to promote collaboration and accessibility.`,
+    ],
+    stack: ['React', 'TypeScript', 'Postman', 'PostgreSQL'],
+    sourceCode: 'https://github.com/yaasiin-ayeva/triskeloum-api',
+    livePreview: 'https://triskeloum.vercel.app/',
+  },
+  {
     thumbnail: '/images/yaasiin-dev.png',
     name: 'Yaasiin.dev',
     description: [
@@ -85,7 +95,18 @@ const projects = [
     livePreview: 'https://yaasiin-dev.vercel.app',
   },
   {
-    thumbnail: '/images/default.jpeg',
+    thumbnail: '/images/AT-Logo.webp',
+    name: 'ussd-africas-talking-app',
+    description: [
+      `Example of a mobile money USSD service using Africa's Talking, developed with Node.js, Express, and TypeScript. This service allows users to interact with a menu-driven interface via USSD codes.`,
+    ],
+    stack: ['Africas Talking', 'TypeScript', 'Express'],
+    sourceCode:
+      'https://github.com/yaasiin-ayeva/ussd-africas-talking-app',
+  },
+  {
+    thumbnail: '/images/whatsbot2.png',
+    // thumbnail: '/images/default.jpeg',
     name: 'WhatsBot',
     description: [
       `Simple AI powered WhatsApp bot that can let you interact with it using voice messages. Also Helps to download videos from numerous social media without watermark.`,
@@ -96,17 +117,36 @@ const projects = [
     livePreview: 'https://api.whatsapp.com/send/?phone=233531799313',
   },
   {
-    thumbnail: '/images/default.jpeg',
-    name: 'ussd-africas-talking-app',
+    thumbnail: '/images/64Bot.png',
+    name: '64Bot',
     description: [
-      `Example of a mobile money USSD service using Africa's Talking, developed with Node.js, Express, and TypeScript. This service allows users to interact with a menu-driven interface via USSD codes.`,
+      `Automation bot that collects chess content from Telegram, Twitter (X), and Instagram, and posts it to a WhatsApp channel on a set schedule.`,
     ],
-    stack: ['Africas Talking', 'TypeScript', 'Express'],
-    sourceCode:
-      'https://github.com/yaasiin-ayeva/ussd-africas-talking-app',
+    stack: ['TypeScript', 'Puppeteer', 'Telegram Bot API', 'Twitter API', 'Instagram API'],
+    sourceCode: 'https://github.com/yaasiin-ayeva/64Bot',
+    //dockerHub: 'https://hub.docker.com/r/yaasiinayeva/whatsbot',
+    //livePreview: 'https://api.whatsapp.com/send/?phone=233531799313',
   },
   {
-    thumbnail: '/images/default.jpeg',
+    thumbnail: '/images/Yield.png',
+    name: 'Yield',
+    description: [
+      'System for sending massive and personalized SMS. Allows creating a personalized list of messages from a single message template.',
+    ],
+    stack: [
+      'Python',
+      'Django',
+      'n8n',
+      'PostgreSQL',
+      'Twilio API',
+      'Android',
+      'Java',
+    ],
+    sourceCode: 'https://github.com/yaasiin-ayeva/Yield-Web',
+    sourceCode1: 'https://github.com/yaasiin-ayeva/Yield-Mobile',
+  },
+  {
+    thumbnail: '/images/polyglot.png',
     name: 'Polyglot',
     description: [
       `Simple discord bot that provide word translation to many differents languages.`,
