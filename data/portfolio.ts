@@ -36,6 +36,7 @@ const projects = [
     ],
     stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'MongoDB'],
     livePreview: 'https://pngs.bi',
+    figma: 'https://www.figma.com/proto/7gXgKAFmcyO94VqPBS9qNq/IMBUTO?node-id=45-64343&p=f&t=GEN6AZKxJ1jdwfhK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=45%3A64343'
   },
   {
     thumbnail: '/images/bog.jpg',
@@ -226,11 +227,11 @@ const contacts = [
     link: 'https://github.com/yaasiin-ayeva',
     icon: 'fab fa-github',
   },
-  {
-    name: 'Upwork',
-    link: 'https://www.upwork.com/freelancers/~01a9b6b0b0c0c7f0b8',
-    icon: 'fab fa-upwork',
-  },
+  // {
+  //   name: 'Upwork',
+  //   link: 'https://www.upwork.com/freelancers/~01a9b6b0b0c0c7f0b8',
+  //   icon: 'fab fa-upwork',
+  // },
   {
     name: 'X',
     link: 'https://x.com/hey_yaasiin',
