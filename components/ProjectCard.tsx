@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import LaunchIcon from '@mui/icons-material/Launch'
 import MediaIcon from '@mui/icons-material/YouTube'
 import { FaDocker } from 'react-icons/fa'
+import { FiFigma } from 'react-icons/fi'
 
 const ProjectCard = ({ project }: any) => (
   <div className='project'>
@@ -51,6 +52,25 @@ const ProjectCard = ({ project }: any) => (
         <a
           href='#'
           aria-label='source code'
+          className='link link--icon disabled'
+        >
+        </a>
+      )}
+
+      {project.figma ? (
+        <a
+          href={project.figma}
+          target='_blank'
+          rel='noreferrer'
+          aria-label='figma'
+          className='link link--icon'
+        >
+          <FiFigma size={24} />
+        </a>
+      ) : (
+        <a
+          href='#'
+          aria-label='figma'
           className='link link--icon disabled'
         >
         </a>
