@@ -40,7 +40,7 @@ function App() {
           <Skills />
           <Contact />
           <Analytics />
-          <SpeedInsights/>
+          <SpeedInsights />
           <BrevoChat />
         </div>
       </main>
