@@ -20,6 +20,25 @@ const about = {
 
 const projects = [
   {
+    thumbnail: '/images/eagri-conseil.png',
+    name: 'Eagri Conseil',
+    description: [
+      `Agricultural advisory app for ICAT Togo. It provides a platform for farmers to access expert advice and resources to improve their agricultural practices.`,
+    ],
+    stack: ['Flutter', 'Dart', 'Google Cloud', 'Firebase Cloud Messaging'],
+    // livePreview: 'https://play.google.com/store/apps/details?id=com.paneotech.eagriconseilplus',
+    sourceCode: 'https://github.com/yaasiin-ayeva/e-agriconseil-plus',
+  },
+  {
+    thumbnail: '/images/yieldllc.png',
+    name: 'Yield LLC',
+    description: [
+      `An Agency Website for Yield LLC, a company specializing in IT solutions, AI services, Software Development, SEO and Digital Marketing.`,
+    ],
+    stack: ['TypeScript', 'ReactJS', 'Tailwind', 'Vercel', 'ESLint', 'Prettier'],
+    livePreview: 'https://yieldgrowth.org/',
+  },
+  {
     thumbnail: '/images/orbisFlow.png',
     name: 'OrbisFlow',
     description: [
