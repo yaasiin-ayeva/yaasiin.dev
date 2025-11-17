@@ -26,7 +26,7 @@ const projects = [
       `Agricultural advisory app for ICAT Togo. It provides a platform for farmers to access expert advice and resources to improve their agricultural practices.`,
     ],
     stack: ['Flutter', 'Dart', 'Google Cloud', 'Firebase Cloud Messaging'],
-    // livePreview: 'https://play.google.com/store/apps/details?id=com.paneotech.eagriconseilplus',
+    livePreview: 'https://play.google.com/store/apps/details?id=com.paneotech.eagriconseil&pcampaignid=web_share',
     sourceCode: 'https://github.com/yaasiin-ayeva/e-agriconseil-plus',
   },
   {
