@@ -39,13 +39,13 @@ const projects = [
     livePreview: 'https://yieldgrowth.org/',
   },
   {
-    thumbnail: '/images/orbisFlow.png',
-    name: 'OrbisFlow',
+    thumbnail: '/images/iroko.png',
+    name: 'Iroko Holding',
     description: [
-      `Multi-Domain Management SaaS (Restaurant, Supermarket, Gas Station, Bar Management) with POS, Inventory Management, Sales Tracking, and accounting module`,
+      `An Agency Website for IROKO HOLDING, a West African investment and development company with a strong focus on sustainability, green energy, and long - term growth`,
     ],
-    stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'PostgreSQL'],
-    livePreview: 'http://16.171.67.4:5025/',
+    stack: ['TypeScript', 'ReactJS', 'Tailwind', 'Vercel', 'ESLint', 'Prettier'],
+    livePreview: 'https://iroko-group.com/',
   },
   {
     thumbnail: '/images/imbuto.png',
@@ -56,6 +56,15 @@ const projects = [
     stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'MongoDB'],
     livePreview: 'https://pngs.bi',
     figma: 'https://www.figma.com/proto/7gXgKAFmcyO94VqPBS9qNq/IMBUTO?node-id=45-64343&p=f&t=GEN6AZKxJ1jdwfhK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=45%3A64343'
+  },
+  {
+    thumbnail: '/images/orbisFlow.png',
+    name: 'OrbisFlow',
+    description: [
+      `Multi-Domain Management SaaS (Restaurant, Supermarket, Gas Station, Bar Management) with POS, Inventory Management, Sales Tracking, and accounting module`,
+    ],
+    stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'PostgreSQL'],
+    livePreview: 'http://16.171.67.4:5025/',
   },
   {
     thumbnail: '/images/bog.jpg',
