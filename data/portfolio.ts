@@ -20,6 +20,26 @@ const about = {
 
 const projects = [
   {
+    thumbnail: '/images/bog.jpg',
+    name: 'Ghana Financial & Cargo Analytics',
+    description: [
+      `Web application that helps to monitor the compliance of companies with anti-money laundering 
+       policies and regulations according to customs data and Bank of Ghana Swift data.
+      `,
+    ],
+    stack: ['TypeScript', 'Express', 'React', 'PostgreSQL'],
+  },
+  {
+    thumbnail: '/images/imbuto.png',
+    name: 'Imbuto',
+    description: [
+      `A web platform connecting seed producers, farmers, certifiers, and buyers — enabling online seed sales, inventory management, and sales tracking. Currently used in Burundi.`,
+    ],
+    stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'MongoDB'],
+    livePreview: 'https://pngs.bi',
+    figma: 'https://www.figma.com/proto/7gXgKAFmcyO94VqPBS9qNq/IMBUTO?node-id=45-64343&p=f&t=GEN6AZKxJ1jdwfhK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=45%3A64343'
+  },
+  {
     thumbnail: '/images/eagri-conseil.png',
     name: 'Eagri Conseil',
     description: [
@@ -28,6 +48,41 @@ const projects = [
     stack: ['Flutter', 'Dart', 'Google Cloud', 'Firebase Cloud Messaging'],
     livePreview: 'https://play.google.com/store/apps/details?id=com.paneotech.eagriconseil&pcampaignid=web_share',
     sourceCode: 'https://github.com/yaasiin-ayeva/e-agriconseil-plus',
+  },
+  {
+    thumbnail: '/images/yvansgroup.png',
+    name: 'YVAN\'S',
+    description: [
+      `Modern e-commerce platform for custom product personalization. Manage content via Google Sheets CMS. Features bilingual support (FR/EN), WhatsApp integration, and responsive design.`,
+    ],
+    stack: ["TypeScript", "React", " React Toolkit", "Google Sheets API", "Tailwind CSS"],
+    livePreview: 'https://yvansgroup.com/',
+  },
+  {
+    thumbnail: '/images/payrolll.jpg',
+    name: 'Payroll Management System',
+    description: [
+      'A comprehensive payroll management system to streamline salary, benefits, and more',
+    ],
+    stack: ['TypeScript', 'MongoDB', 'Express', 'BootStrap', 'JQuery',],
+  },
+  {
+    thumbnail: '/images/recsoft.jpg',
+    name: 'Rec-Software',
+    description: [
+      `A bank statements reconciliation that can handle large amount of transactions and reconcile them correctly in the needed way.`,
+    ],
+    stack: ['TypeScript', 'MongoDB', 'Express', 'BootStrap', 'JQuery'],
+  },
+  {
+    thumbnail: '/images/AT-Logo.webp',
+    name: 'ussd-africas-talking-app',
+    description: [
+      `Example of a mobile money USSD service using Africa's Talking, developed with Node.js, Express, and TypeScript. This service allows users to interact with a menu-driven interface via USSD codes.`,
+    ],
+    stack: ['Africas Talking', 'TypeScript', 'Express'],
+    sourceCode:
+      'https://github.com/yaasiin-ayeva/ussd-africas-talking-app',
   },
   {
     thumbnail: '/images/yieldllc.png',
@@ -48,16 +103,6 @@ const projects = [
     livePreview: 'https://iroko-group.com/',
   },
   {
-    thumbnail: '/images/imbuto.png',
-    name: 'Imbuto',
-    description: [
-      `A web platform connecting seed producers, farmers, certifiers, and buyers — enabling online seed sales, inventory management, and sales tracking. Currently used in Burundi.`,
-    ],
-    stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'MongoDB'],
-    livePreview: 'https://pngs.bi',
-    figma: 'https://www.figma.com/proto/7gXgKAFmcyO94VqPBS9qNq/IMBUTO?node-id=45-64343&p=f&t=GEN6AZKxJ1jdwfhK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=45%3A64343'
-  },
-  {
     thumbnail: '/images/orbisFlow.png',
     name: 'OrbisFlow',
     description: [
@@ -65,32 +110,6 @@ const projects = [
     ],
     stack: ['TypeScript', 'Express', 'React Toolkit', 'React', 'PostgreSQL'],
     livePreview: 'http://16.171.67.4:5025/',
-  },
-  {
-    thumbnail: '/images/bog.jpg',
-    name: 'Ghana Financial & Cargo Analytics',
-    description: [
-      `Web application that helps to monitor the compliance of companies with anti-money laundering 
-       policies and regulations according to customs data and Bank of Ghana Swift data.
-      `,
-    ],
-    stack: ['TypeScript', 'Express', 'React', 'PostgreSQL'],
-  },
-  {
-    thumbnail: '/images/payrolll.jpg',
-    name: 'Payroll Management System',
-    description: [
-      'A comprehensive payroll management system to streamline salary, benefits, and more',
-    ],
-    stack: ['TypeScript', 'MongoDB', 'Express', 'BootStrap', 'JQuery',],
-  },
-  {
-    thumbnail: '/images/recsoft.jpg',
-    name: 'Rec-Software',
-    description: [
-      `A bank statements reconciliation that can handle large amount of transactions and reconcile them correctly in the needed way.`,
-    ],
-    stack: ['TypeScript', 'MongoDB', 'Express', 'BootStrap', 'JQuery'],
   },
   {
     thumbnail: '/images/labomaster.png',
@@ -124,18 +143,7 @@ const projects = [
     livePreview: 'https://yaasiin-dev.vercel.app',
   },
   {
-    thumbnail: '/images/AT-Logo.webp',
-    name: 'ussd-africas-talking-app',
-    description: [
-      `Example of a mobile money USSD service using Africa's Talking, developed with Node.js, Express, and TypeScript. This service allows users to interact with a menu-driven interface via USSD codes.`,
-    ],
-    stack: ['Africas Talking', 'TypeScript', 'Express'],
-    sourceCode:
-      'https://github.com/yaasiin-ayeva/ussd-africas-talking-app',
-  },
-  {
     thumbnail: '/images/whatsbot2.png',
-    // thumbnail: '/images/default.jpeg',
     name: 'WhatsBot',
     description: [
       `Simple AI powered WhatsApp bot that can let you interact with it using voice messages. Also Helps to download videos from numerous social media without watermark.`,
